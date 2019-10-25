@@ -16,4 +16,5 @@ pdf("Tiger_Graph.pdf")
 barplot(tigerTable, ylab = "Frequency", cex.names = 0.5, las = 2)
 dev.off()
 
+#just another edit to push to GitHub
 
