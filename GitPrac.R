@@ -11,4 +11,9 @@ data.frame(Frequency = tigerTable)
 
 data.frame(Frequency = addmargins(tigerTable))
 
+#saving plot separately from R, then will commit to respository
+pdf("Tiger_Graph.pdf")
 barplot(tigerTable, ylab = "Frequency", cex.names = 0.5, las = 2)
+dev.off()
+
+
