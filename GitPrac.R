@@ -7,3 +7,8 @@ tigerTable <- sort(table(tigerData$activity), decreasing = TRUE)
 tigerTable
 
 
+data.frame(Frequency = tigerTable)
+
+data.frame(Frequency = addmargins(tigerTable))
+
+barplot(tigerTable, ylab = "Frequency", cex.names = 0.5, las = 2)
